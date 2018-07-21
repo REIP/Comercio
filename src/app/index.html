@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.css" media="screen" />
+    <script type="text/javascript" src="../assets/js/functions.js"></script>
+    <meta charset="utf-8" />
+    <title>Incluyendo JS en HTML5</title>
+</head>
+
+<body>
+    <div class="ui-grid ui-grid-responsive ui-grid-pad">
+        <div class="ui-grid-row padding-top-10">
+            <div class="ui-grid-col-8">
+                <div class="ui-grid-col-4 text-right">
+                    <label for="number" class="an-label">Ingresar Número:</label>
+                </div>
+                <div class="ui-grid-col-2">
+                    <input maxlength="5" type="text" id="number" name="numero[]" onkeypress="return validateNumber(event);" class="da-input-type-text"
+                    />
+                </div>
+                <div class="ui-grid-col-2">
+                    <input type="button" value="Agregar" onclick="insertValueIntoTable()" class="an-button-primary">
+                </div>
+                <div class="ui-grid-col-3">
+                    <ul class="navigation text-left">
+                        <li class="an-label-message an-label-required">Ingresar números en cualquier orden.</li>
+                        <li class="an-label-message an-label-required">Los números no deben repetirse.</li>
+                        <li class="an-label-message an-label-required">Ordenamiento ascendente.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="ui-grid-col-12">
+            <hr/>
+        </div>
+        <div class="ui-grid-row padding-top-10 padding-bottom-20">
+            <div class="ui-grid-col-6">
+                <div class="ui-grid-col-4">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="title padding-bottom-20">Lista de números ingresados</th>
+                            </tr>
+                        </thead>
+                        <tbody id="TableBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui-grid-col-12">
+            <hr/>
+        </div>
+
+        <div class="ui-grid-row padding-top-10">
+            <div class="ui-grid-col-6">
+                <div class="ui-grid-col-3">
+                    <input type="button" value="Ordenar ASC" onclick="sort()" class="an-button-primary">
+                </div>
+                <div class="ui-grid-col-3">
+                    <input type="button" value="Limpiar" onclick="removeAll()" class="an-button-primary">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

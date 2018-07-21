@@ -1,0 +1,327 @@
+.ui-grid {
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+.ui-grid-responsive {
+    display: block;
+    width: 100%;
+}
+
+.ui-grid .ui-grid-row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    clear: both;
+}
+
+.ui-grid-col-1,
+.ui-grid-col-2,
+.ui-grid-col-3,
+.ui-grid-col-4,
+.ui-grid-col-5,
+.ui-grid-col-6,
+.ui-grid-col-7,
+.ui-grid-col-8,
+.ui-grid-col-9,
+.ui-grid-col-10,
+.ui-grid-col-11,
+.ui-grid-col-12 {
+    float: left;
+    box-sizing: border-box;
+}
+
+.ui-grid-col-1 {
+    width: 8.33333%;
+}
+
+.ui-grid-col-2 {
+    width: 16.66666%;
+}
+
+.ui-grid-col-3 {
+    width: 25%;
+}
+
+.ui-grid-col-4 {
+    width: 33.33333%;
+}
+
+.ui-grid-col-5 {
+    width: 41.66666%;
+}
+
+.ui-grid-col-6 {
+    width: 50%;
+}
+
+.ui-grid-col-7 {
+    width: 58.33333%;
+}
+
+.ui-grid-col-8 {
+    width: 66.66666%;
+}
+
+.ui-grid-col-9 {
+    width: 75%;
+}
+
+.ui-grid-col-10 {
+    width: 83.33333%;
+}
+
+.ui-grid-col-11 {
+    width: 91.66666%;
+}
+
+.ui-grid-col-12 {
+    width: 100%;
+}
+
+.ui-grid.ui-grid-pad>.ui-grid-row>div {
+    padding: .25em .5em;
+}
+
+/* General Styles */
+
+.padding-top-5 {
+    padding-top: 5px;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.padding-top-20 {
+    padding-top: 20px !important;
+}
+
+.padding-top-30 {
+    padding-top: 30px !important;
+    display: block;
+}
+
+.padding-top-50 {
+    padding-top: 50px !important;
+    display: block;
+}
+
+.padding-bottom-5 {
+    padding-bottom: 5px !important;
+}
+
+.padding-bottom-15 {
+    padding-bottom: 15px !important;
+}
+
+.padding-bottom-20 {
+    padding-bottom: 20px !important;
+}
+
+.padding-left-15 {
+    padding-left: 15px;
+}
+
+.padding-left-30 {
+    padding-left: 30px;
+}
+
+.padding-right-15 {
+    padding-right: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin-left-15 {
+    margin-left: 15px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.margin-left-5 {
+    margin-top: 5px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-botttom-40 {
+    margin-bottom: 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+.title {
+    color: #767676;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0px 0px 0px;
+}
+
+/* ul */
+
+ul.submenu {
+    display: block;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    position: relative;
+    top: 20px;
+}
+
+ul.submenu li {
+    float: left;
+    margin: 2px 5px;
+    list-style: none;
+}
+
+ul.navigation {
+    display: inline-grid;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.navigation li {
+    float: left;
+    margin: 2px 5px;
+    list-style: none;
+}
+
+ul.optionsMenu {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+ul.optionsMenu li {
+    list-style: none;
+    padding: 5px 15px;
+}
+
+ul.optionsMenu li a:link {
+    display: block;
+}
+
+/* button */
+
+.an-button-primary,
+.an-button-primary:visited {
+    background: #199DE0;
+    border: 1px solid #199DE0;
+    height: 36px;
+    cursor: pointer;
+    padding: 0px 30px;
+    font-size: 13px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border-radius: 0px;
+    color: #FFFFFF;
+}
+
+.an-button-primary:hover {
+    background: #065D9C;
+    border: 1px solid #065D9C;
+}
+
+/* label */
+
+.an-label {
+    font-size: 18px;
+    color: #767676;
+    text-align: right;
+    padding-right: 15px;
+    line-height: 16px;
+    display: inline-block;
+    margin-top: 11px;
+}
+
+/* label message */
+
+.an-label-message {
+    font-size: 13px;
+    color: #767676;
+    text-align: left;
+    padding-right: 15px;
+    line-height: 16px;
+    display: inline-block;
+}
+
+.an-label-required:before {
+    color: #767676;
+    content: '*';
+}
+
+/* input-type-text  */
+
+.da-input-type-text {
+    height: 26px;
+    border: 1px solid #ACD4ED !important;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    font-size: 13px !important;
+    color: #969696 !important;
+    padding: 4px 5px;
+    font-weight: normal;
+    width: 100px;
+    float: left;
+}
+
+/* TR  */
+
+tr {
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    font-size: 14px;
+    background-color: #f2f2f2;
+}
