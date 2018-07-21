@@ -15,6 +15,7 @@ function validateNumber(event) {
 
 /**
  * Insertar los valores numericos en la tabla.
+ * 
  */
 function insertValueIntoTable() {
     if (!existsValueIntoTable()) {
